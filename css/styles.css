@@ -1,0 +1,29 @@
+.navegacao {
+    background-color: rgb(46, 46, 46);
+}
+
+.nav-itens {
+    display: flex;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-size: 10px;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 1rem;
+    margin-left: 1rem;
+
+}
+
+.nav-logo-epic {
+    display: inline-block;
+    width: 35px;
+    text-align: center;
+    align-items: center;
+}
+
+.nav-logo-fortnite {
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+    align-items: center;
+}
