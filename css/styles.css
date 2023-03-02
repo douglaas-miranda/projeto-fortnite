@@ -10,7 +10,7 @@ body {
     display: flex;
     color: #FFFFFF;
     text-transform: uppercase;
-    font-size: 10px;
+    font-size: 12px;
     align-items: center;
     flex-wrap: nowrap;
     gap: 1rem;
@@ -37,17 +37,24 @@ body {
 }
 
 .corpo-1 {
+    width: 100%;
     background-image: url('../img/fortnite-background3.jpg');
-    /* background-color: #e2e2e2; */
+    /* background-color: rgb(46, 46, 46);
     background-size: cover;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
 }
 
-.background-container {
-    width: 50vw;
-    position: relative;
-    left: 25%;
+.logo-fortnite {
+    position: absolute;
+    width: 45%;
+    padding-left: 27.5%;
 }
+
+/* .background-container {
+    width: 80%;
+    padding-left: 10%;
+} */
+
 
 .cabecalho-corpo2, .level-corpo2, .corpo-3{
     display: flex;
@@ -56,7 +63,7 @@ body {
 
 
 .corpo-2 {
-    background-image: url("../img/fortnite-background4.png");
+    background-image: url("../img/fortnite-background3.jpg");
     background-size:cover;
     background-repeat: no-repeat;
 }
@@ -64,8 +71,8 @@ body {
 
 .personagem-inicio {
     position: relative;
-    right: 10vw;
-    top: 1.8vh;
+    /* right: 0vw; */
+    top: 2vh;
     display: inline-block;
     width: 35vw;    
 }
@@ -79,23 +86,81 @@ body {
 .texto-corpo2{
     color: #ffffff;
     font-size: 2vw;
+    background-color: rgba(0, 238, 255, 0.479);
+    padding: .3rem;
 }
 
-.capitulo, .level{
+.texto-corpo2:hover {
+    color: #ffee00;
+    cursor: pointer;
+}
+
+.chapter {
+    padding-left: 30%;
+    width: 40%;
+}
+
+.capitulo {
+    padding-top: 1rem;
+    color: rgb(255, 255, 255);
+    font-size: 3vw;
+    text-transform: uppercase;
+    font-style: italic;
+    padding-left: 33%;
+}
+
+.level {
+    padding-top: 1rem;
     color: rgb(0, 103, 221);
     font-size: 3vw;
     text-transform: uppercase;
     font-style: italic;
+    text-shadow: 2px 2px #000000;
 }
 
 .temporada {
+    padding-top: 1rem;
     text-transform: uppercase;
     color: #ffffff;
     font-size: 3vw;
     font-style: italic;
+    text-shadow: 2px 2px #000000;
 }
 
 .corpo-3 {
     padding: 1rem;
 }
 
+.rodape {
+    background-color: rgb(46, 46, 46);
+    color: white;
+    display: inline-block;
+    text-align: center;
+    padding: 3rem;
+}
+
+.classificacao {
+    padding-bottom: 2rem;
+}
+
+.corpo-4 {
+    background-image: url("../img/fortnite-background6.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.texto-corpo4 {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    font-size: 3vw;
+    font-style: italic;
+    color: #ffffff;
+    text-shadow: 2px 2px #000000;
+    padding-left: 25%;
+}
+
+.video-corpo4 {
+    padding-left: 25%;
+    width: 50vw;
+    padding-bottom: 3rem;
+}
