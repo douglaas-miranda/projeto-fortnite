@@ -19,7 +19,7 @@ body {
 }
 
 .nav-itens:hover {
-    color: #d1c40f;
+    color: #ffee00;
 }
 
 .nav-logo-epic {
@@ -36,6 +36,10 @@ body {
     align-items: center;
 }
 
+.background {
+    width: 100%;
+}
+
 .corpo-1 {
     width: 100%;
     background-image: url('../img/fortnite-background3.jpg');
@@ -44,11 +48,13 @@ body {
     background-repeat: no-repeat; */
 }
 
-.logo-fortnite {
+
+/* Logo para caso eu troque de imagem **** */
+/* .logo-fortnite {
     position: absolute;
     width: 45%;
     padding-left: 27.5%;
-}
+} */
 
 /* .background-container {
     width: 80%;
@@ -75,6 +81,20 @@ body {
     top: 2vh;
     display: inline-block;
     width: 35vw;    
+}
+
+
+.texto {
+    display: inline-block;
+}
+
+.texto-estatisticas{
+    font-size: 3vw;
+    font-style: italic;
+    color: #FFFFFF;
+    text-shadow: 3px 3px #000000;
+    padding-left: 2vw;
+    font-weight: bold;
 }
 
 .level-corpo2 {
