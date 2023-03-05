@@ -7,7 +7,7 @@
 Foram ultilizados:
 
 
-HTML5
+HTML
 
 CSS
 
