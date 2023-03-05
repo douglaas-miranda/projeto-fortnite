@@ -207,15 +207,46 @@ body {
     color: #ffee00;
 }
 
-@media screen and (max-width: 375px) {
-    .nav-itens {
+.nav-mobile, .menu-mobile {
+    display: none;
+}
+
+
+
+@media screen and (max-width: 420px) {
+    .nav {
         display: none;
     }
-    .nav-logo-epic{
-        margin-left: 20px;
+
+    .nav-mobile {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: .5rem;
     }
-    .nav-logo-fortnite{
-        margin-left: 10px;
+
+    .nav-menu {
+        width: 4rem;
+    }
+
+    .nav-logo-epic-mobile{
+        width: 3rem;
+        padding: .8rem;
+        justify-self: center;
+    }
+
+    .nav-logo-fortnite-mobile {
+        width: 13rem;
+    }
+
+    .menu-li {
+        padding: .7rem 0rem;
+    }
+
+    .menu-mobile {
+        display: none;
+        position: absolute;
+        background-color:  rgb(46, 46, 46);
     }
     
     .texto-estatisticas {
@@ -229,8 +260,6 @@ body {
 
     .corpo-3 {
         gap: .2rem;
-        position: relative;
-        bottom:40px;
     }
 
     .level-corpo2 {
@@ -253,13 +282,9 @@ body {
         justify-content: center;
     }
 
-    .caixa-video {
-        width: 600px;
-        height: 300px;
-
-    }
 
     .video-corpo4 {
+        padding: 0;
         width: 80vw;
         height: 35vh;
     }
@@ -268,4 +293,8 @@ body {
         font-size: .7rem;
     }
 
+    .nav-itens-mobile {
+        padding: 1rem;
+        color: #FFFFFF;
+    }
 }

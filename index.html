@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="../css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="shortcut icon" href="/img/icon.png">
+    <link rel="shortcut icon" href="/img/icon.png" />
     <link
       href="https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap"
       rel="stylesheet"
@@ -18,23 +18,65 @@
   <body>
     <header>
       <nav class="navegacao">
+        <ul class="nav-mobile">
+          <div class="nav-img"></div>
+          <li class="menu-li">
+            <a href="#"
+              ><img
+                src="img/menu.jpg"
+                alt=""
+                class="nav-menu"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                src="../img/epic-logo.png"
+                alt="Logo da Epic Games"
+                class="nav-logo-epic-mobile"
+            /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img
+                src="../img/fortnite-logo.png"
+                alt="Logo do Fortnite"
+                class="nav-logo-fortnite-mobile"
+            /></a>
+          </li>
+        </ul>
+        <ul class="menu-mobile">
+          <a href="#"><li class="nav-itens-mobile">Modos</li></a>
+          <a href="#"><li class="nav-itens-mobile">Passe de batalha</li></a>
+          <a href="#"><li class="nav-itens-mobile">Clube</li></a>
+          <a href="#"><li class="nav-itens-mobile">V-Bucks</li></a>
+          <a href="#"><li class="nav-itens-mobile">Dispositivos Móveis</li></a>
+          <a href="#"><li class="nav-itens-mobile">Competitivo</li></a>
+          <a href="#"><li class="nav-itens-mobile">Notícias</li></a>
+          <a href="#"><li class="nav-itens-mobile">Produtos</li></a>
+          <a href="#"><li class="nav-itens-mobile">Ajuda</li></a>
+        </ul>
         <ul class="nav">
           <div class="nav-img"></div>
           <li>
-            <a href="#"><img
-              src="../img/epic-logo.png"
-              alt="Logo da Epic Games"
-              class="nav-logo-epic"
-            /></a>            
+            <a href="#"
+              ><img
+                src="../img/epic-logo.png"
+                alt="Logo da Epic Games"
+                class="nav-logo-epic"
+            /></a>
           </li>
           <li>
-            <a href="#"><img
-              src="../img/fortnite-logo.png"
-              alt="Logo do Fortnite"
-              class="nav-logo-fortnite"
-            /></a>            
+            <a href="#"
+              ><img
+                src="../img/fortnite-logo.png"
+                alt="Logo do Fortnite"
+                class="nav-logo-fortnite"
+            /></a>
           </li>
-          <div class="modos"><a href="#"><li class="nav-itens">Modos</li></a></div>          
+          <div class="modos">
+            <a href="#"><li class="nav-itens">Modos</li></a>
+          </div>
           <a href="#"><li class="nav-itens">Passe de batalha</li></a>
           <a href="#"><li class="nav-itens">Clube</li></a>
           <a href="#"><li class="nav-itens">V-Bucks</li></a>
@@ -43,7 +85,7 @@
           <a href="#"><li class="nav-itens">Notícias</li></a>
           <a href="#"><li class="nav-itens">Produtos</li></a>
           <a href="#"><li class="nav-itens">Ajuda</li></a>
-        </ul>        
+        </ul>
       </nav>
       <ul class="modos-nav">
         <li class="modos-nav-itens">Battle Royale</li>
@@ -54,11 +96,7 @@
     </header>
     <main>
       <section class="corpo-1">
-        <img
-          src="img/fortnite-background7.jpg"
-          alt=""
-          class="background"
-        />
+        <img src="img/fortnite-background7.jpg" alt="" class="background" />
       </section>
       <section class="corpo-2">
         <div class="cabecalho-corpo2">
@@ -92,7 +130,7 @@
             <p class="avg-match-time, texto-corpo2">
               11m 43s Tempo Médio de Jogo
             </p>
-          </div>          
+          </div>
         </section>
         <div class="imagem-personagem">
           <img
@@ -100,33 +138,32 @@
             alt="Personagem Doom Slayer"
             class="personagem-inicio"
           />
-        </div>        
+        </div>
       </section>
       <section class="corpo-4">
-        <div class="corpo4-container">
-          <p class="texto-corpo4">Teste seus limites, e chegue ao final.</p>
-          <div class="caixa-video">
+           <div>
+            <p class="texto-corpo4">Teste seus limites, e chegue ao final.</p>
             <iframe
-            width="1000"
-            height="450"
-            src="https://www.youtube.com/embed/nCMKt5Hjo-4"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            allowfullscreen class="video-corpo4"
-          ></iframe>
-          </div>
-        </div>        
+                  width="600"
+                  height="400"
+                  src="https://www.youtube.com/embed/nCMKt5Hjo-4"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                  class="video-corpo4"
+              ></iframe>
+           </div>
       </section>
     </main>
     <footer>
       <section class="rodape">
-        <a href="#"><p class="rodape-topo">Voltar ao topo </p></a>
+        <a href="#"><p class="rodape-topo">Voltar ao topo</p></a>
         <img
           src="../img/classificacao.png"
           alt="Classificação indicativa"
           class="classificacao"
-        />        
+        />
         <p class="direitos-reservados">
           © 2023, Epic Games, Inc. Epic, Epic Games, o logotipo da Epic Games,
           Fortnite, o logotipo de Fortnite, Unreal, Unreal Engine 4 e UE4 são
@@ -138,4 +175,3 @@
   </body>
   <script src="js/main.js"></script>
 </html>
-
