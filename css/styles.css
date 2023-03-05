@@ -18,6 +18,10 @@ body {
 
 }
 
+.nav-itens {
+    text-align: center;
+}
+
 .nav-itens:hover {
     color: #ffee00;
 }
@@ -81,10 +85,14 @@ body {
 }
 
 
+.imagem-personagem {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content:end
+}
+
 .personagem-inicio {
-    position: relative;
-    top: 2vh;
-    display: inline-block;
     width: 35vw;    
 }
 
@@ -197,4 +205,67 @@ body {
 
 .rodape-topo:hover {
     color: #ffee00;
+}
+
+@media screen and (max-width: 375px) {
+    .nav-itens {
+        display: none;
+    }
+    .nav-logo-epic{
+        margin-left: 20px;
+    }
+    .nav-logo-fortnite{
+        margin-left: 10px;
+    }
+    
+    .texto-estatisticas {
+        font-size: 1rem;
+        padding-top: .5rem;
+    }
+
+    .temporada, .level {
+        font-size: .8rem;
+    }
+
+    .corpo-3 {
+        gap: .2rem;
+        position: relative;
+        bottom:40px;
+    }
+
+    .level-corpo2 {
+        gap: .5rem;
+    }
+
+    .texto-corpo2 {
+        font-size: .7rem;
+    }
+
+    .texto-corpo4 {
+        font-size: 1rem;
+        padding: 2rem 1rem;
+        text-align: center;
+    }
+
+    .corpo-4 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .caixa-video {
+        width: 600px;
+        height: 300px;
+
+    }
+
+    .video-corpo4 {
+        width: 80vw;
+        height: 35vh;
+    }
+
+    .rodape-topo, .direitos-reservados {
+        font-size: .7rem;
+    }
+
 }
