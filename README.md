@@ -12,3 +12,6 @@ HTML
 CSS
 
 JavaScript
+
+
+##Adaptado ao mobile!
