@@ -22,6 +22,28 @@ body {
     color: #ffee00;
 }
 
+.modos {
+    padding: 2rem 0;
+}
+
+.modos-nav {
+    display: none;
+    background-color: rgb(46, 46, 46);
+    color: #FFFFFF;
+    padding: .5rem;
+    position: absolute;
+    left: 220px;
+}
+
+.modos-nav-itens {
+    padding: .5rem;
+}
+
+.modos-nav-itens:hover {
+    color: #ffee00;
+    cursor: pointer;
+}
+
 .nav-logo-epic {
     display: inline-block;
     width: 35px;
@@ -43,23 +65,7 @@ body {
 .corpo-1 {
     width: 100%;
     background-image: url('../img/fortnite-background3.jpg');
-    /* background-color: rgb(46, 46, 46);
-    background-size: cover;
-    background-repeat: no-repeat; */
 }
-
-
-/* Logo para caso eu troque de imagem **** */
-/* .logo-fortnite {
-    position: absolute;
-    width: 45%;
-    padding-left: 27.5%;
-} */
-
-/* .background-container {
-    width: 80%;
-    padding-left: 10%;
-} */
 
 
 .cabecalho-corpo2, .level-corpo2, .corpo-3{
@@ -77,7 +83,6 @@ body {
 
 .personagem-inicio {
     position: relative;
-    /* right: 0vw; */
     top: 2vh;
     display: inline-block;
     width: 35vw;    
