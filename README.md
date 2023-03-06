@@ -1,7 +1,7 @@
 # Projeto Fortnite
 
 
-## Projeto feito para testar minhas skills no curso CSV.
+## Projeto feito para testar minhas skills.
 
 
 Foram ultilizados:
